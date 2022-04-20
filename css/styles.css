@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(45deg, #c31432, #240b36);
+  box-sizing: border-box;
+  color:white;
+}
+#main #hName {
+  color: #240b36;
+  /* text-shadow: 0 0 5px #c31432; */
+  font-family: 'Rampart One', cursive;
+  font-size: 3rem;
+  text-align: center;
+  margin: -2em 0 0.5em 0;
+}
+h1 {
+  font-size: 5em;
+  color: #240b36;
+  text-shadow: 0 0 5px #c31432;
+  font-family: "Rampart One", cursive;
+}
+.t-box{
+  text-align:center;
+}
+#tasbih ,button {
+  cursor: pointer;
+}
+#tasbih{
+  padding: 0 0 0.3em 0;
+}
+button{
+    padding: 1em 1.5em;
+    outline: none;
+    border: none;
+    border:1.5px solid #240b36;
+    /* border-radius: 8%; */
+    /* box-shadow:0 0 7px #240b36; */
+    background-color: rgba(0, 0, 0, 0.08);
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+}
+#goal{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    padding: 0.5em;
+}
+#goal div{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+#goal p{
+padding: 1em;
+margin: 1em;
+background-color: rgba(0, 0, 0, 0.2);
+color: #f1a1af;
+}
+#goal div a{
+  text-decoration: none;
+  color:#fa4966;
+}
+
+
+.user-select-none{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.done{
+  background-color: #c31432 !important;
+  color: white !important;
+}
